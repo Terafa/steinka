@@ -1,0 +1,74 @@
+/*web.css */
+   body {max-width: 1024px;margin: auto;}
+   
+   header { width:auto;
+            height:auto;
+            background-image:url("https://cdn.pixabay.com/photo/2015/07/16/14/58/karlstejn-847794_1280.jpg");
+            padding: 4em;
+    }
+   
+   footer, nav { 
+     
+     background-color:#2E8B57; 
+     color: #000000;
+     font-variant: normal;
+     padding: 1em;
+   }
+  
+   header {
+      text-align: center;
+      font: normal bold Times, 'Times New Roman', Georgia, serif;
+      
+   }
+   
+   footer {
+      text-align: right;
+      font-style: italic;
+   }
+   
+   
+   nav {
+   text-align: center;
+   background-color: #C0C0C0;
+   color: #FFFFFF;
+   }
+   
+   a { text-decoration: none;
+       color: #000000;
+       font-weight: bold;
+       padding-right: 5px;
+       padding-left: 5px;
+        
+    }
+    
+    img { border-radius:10px 30px 50px 70px ;
+    
+    }
+    
+    
+   
+   nav ul {margin-top: 0;}
+   nav ul li {display: inline-block;}
+   }
+ 
+   
+   
+   /* For desktop: */
+   article {float: Center; width: 30%;
+            
+            }
+            
+           
+            
+   footer {clear: center;}
+   
+   Responzivní web (na w3schools):
+
+   /* For mobile phones: */ 
+   @media only screen and (max-width: 768px) {
+    article {width: 50%;}
+   } 
+   @media only screen and (max-width: 600px) {
+    article {width: 100%;}
+    nav ul li {display: block;text-align: center;}
+  }
